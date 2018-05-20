@@ -1,0 +1,18 @@
+{
+	"background": {
+		"page": "background.html"
+	},
+	"description": "View and Modify Permissions of any Chrome extension",
+
+	"manifest_version": 2,
+	"name": "Permission Limiter",
+	"permissions": [
+		"contextMenus",
+		"https://chrome.google.com/webstore/detail/*",
+		"downloads",
+		"tabs",
+		"https://*/*"
+	],
+	"version": "1.22",
+	"web_accessible_resources": ["View.html", "dm.js", "jszip.js"]
+}
